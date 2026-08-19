@@ -1,0 +1,16 @@
+{
+  "name": "roomcraft-copilot-backend",
+  "version": "1.0.0",
+  "description": "Backend/proxy for RoomCraft's Design Copilot — holds the Anthropic API key server-side and exposes POST /api/copilot to the frontend.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}
